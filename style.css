@@ -1,0 +1,86 @@
+:root{
+    --gradient: linear-gradient(51deg, rgba(110,27,184,1) 0%, rgba(218,0,250,1) 100%);
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'Play', sans-serif;
+} 
+
+.navbar {
+    background-color: white;
+}
+
+.Home{
+    color: white;
+    background: var(--gradient);
+    overflow: hidden;
+}
+
+.wave {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: white;
+}
+
+#SignUp{
+    background-color: royalblue;
+    color: white;
+}
+
+
+.btn-primary{
+    color: white;
+    background-color: royalblue;
+}
+
+.Team{
+    background: var(--gradient);
+    color: white;
+}
+
+
+.inverted-wave {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(0deg);
+}
+
+.inverted-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.inverted-wave .shape-fill {
+    fill: white;
+}
