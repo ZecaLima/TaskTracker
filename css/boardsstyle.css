@@ -1,0 +1,36 @@
+:root{
+    --gradient: linear-gradient(51deg, rgba(110,27,184,1) 0%, rgba(218,0,250,1) 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+}
+
+.navbar-container {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+}
+
+#Logout{
+    background-color: darkred;
+    color: white;
+}
+
+
+
+

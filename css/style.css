@@ -1,6 +1,5 @@
 :root{
     --gradient: linear-gradient(51deg, rgba(110,27,184,1) 0%, rgba(218,0,250,1) 100%);
-
 }
 
 
@@ -18,7 +17,10 @@ body {
     font-family: 'Play', sans-serif;
 } 
 
-.navbar {
+.navbar-container {
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
     background-color: white;
 }
 

@@ -1,0 +1,57 @@
+:root{
+    --gradient: linear-gradient(51deg, rgba(110,27,184,1) 0%, rgba(218,0,250,1) 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+}
+
+.navbar-container {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+}
+
+#SignUp{
+    background-color: royalblue;
+    color: white;
+}
+
+
+form{
+    background-color: white;
+    padding: 50px;
+    border: 20px;
+    border-radius: 10%;
+    margin-top: 75px;
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: var(--gradient);
+}
+
+.form-control{
+    color: rgba(0, 0, 0, 0.87);
+    border-bottom-color: rgba(0, 0, 0, 0.47);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}

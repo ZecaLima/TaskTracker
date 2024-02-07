@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,47 +14,15 @@
 
 
     <body>
-        <div class="row justify-content-center"> 
-            <div class="col-xl-8">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid align-items-center">
-                        <a class="navbar-brand d-flex align-items-center" href="#">
-                            <img src="./assets/logo.png" alt="" width="" height="30" class="d-inline-block allign-text-top">
-                            <span class="h4 ps-2 my-0 align-middle"><strong>TaskTracker</strong></span>
-                        </a>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#Home"><p class="h5 mb-0">Home</p></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#About"><p class="h5 mb-0">About</p></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#Team"><p class="h5 mb-0">Team</p></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#Functionalities"><p class="h5 mb-0">Functionalities</p></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul class="navbar-nav d-flex">
-                                <li class="navbar-item px-1">
-                                    <a class="nav-link active" aria-current="page" href="#"><p class="h5 mb-0 p-1">Log in</p></a>
-                                </li>
-                                <li class="navbar-item px-1">
-                                    <a class="nav-link active" id="SignUp" aria-current="page" href="#"><p class="h5 mb-0 p-1">Sign Up for Free!</p></a>
-                                </li>
-                            </ul>
-                        </div>
-        
-                    </div>
-                </nav>
-            </div>            
+        <div class="navbar-container" id="navbar-container">
+            <div class="row justify-content-center"> 
+                <div class="col-xl-8">
+                    <?php
+                        require_once './components/navbar.php'
+                    ?>
+                </div>            
+            </div>
         </div>
-        
-
 
 
 
@@ -212,7 +180,7 @@
 
 
 
-
+        <script src="./js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     </body>
